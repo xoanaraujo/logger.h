@@ -166,12 +166,12 @@ static char time_info[100];
 
 #else
 
-#define LOG_TRACE(message)
-#define LOG_DEBUG(message)
-#define LOG_INFO(message)
-#define LOG_WARN(message)
-#define LOG_ERROR(message)
-#define LOG_CRIT(message)
+#define LOG_TRACE(category, message)
+#define LOG_DEBUG(category, message)
+#define LOG_INFO(category, message)
+#define LOG_WARN(category, message)
+#define LOG_ERROR(category, message)
+#define LOG_CRIT(category, message)
 
 #endif // ifndef LOG_LEVEL_TRACE
 
